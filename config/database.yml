@@ -1,10 +1,8 @@
 development:
-  adapter: postgresql
-  encoding: unicode
-  database: mn_development
+  adapter: sqlite3
+  database: db/development.sqlite3
   pool: 5
-  username: blog
-  password: mn_dev
+  timeout: 5000
 
 production:
   adapter: postgresql
